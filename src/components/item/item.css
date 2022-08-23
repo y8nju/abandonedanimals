@@ -1,0 +1,38 @@
+.item {
+    width: calc((100% - 30px) / 4);
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.item .thumbnail {
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+}
+.item .infrom {
+    width: 60%;
+    padding: 12px;
+}
+.item .noticeNo {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.detail  + .list {
+    width: 40%;
+}
+.detail  + .list .item {
+    width: 100%;
+}
+
+.item:hover {
+    background-color: #f1f1f1;
+    border-width: 2px;
+}

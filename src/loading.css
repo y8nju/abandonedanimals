@@ -1,0 +1,15 @@
+#loading {
+    background-color: rgba(0,0,0,.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 1200;
+    color: #fff;
+    font-size: 2rem;
+}
+/* 개발바닥 애니메이션 넣기 */
