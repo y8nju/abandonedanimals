@@ -56,8 +56,7 @@ function App() {
 		console.log(loading);
 	return (
 		<div className="App">
-			 <Loading /> 
-			{/* {loading? <Loading /> : null} */}
+			{loading? <Loading /> : null}
 			<Search onSearch={handleSearch} uprCd={uprCd}/>
 
 			<section className="container">

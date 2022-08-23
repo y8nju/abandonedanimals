@@ -1,5 +1,5 @@
 #loading {
-    background-color: rgba(0,0,0,.7);
+    background-color: rgba(0,0,0,.6);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +9,26 @@
     top: 0;
     bottom: 0;
     z-index: 1200;
-    color: #fff;
-    font-size: 2rem;
+    color: #ddd;
+    font-size: 1.7rem;
 }
-/* 개발바닥 애니메이션 넣기 */
+#loading ul {
+    display: flex;
+}
+.loadingItem {
+    list-style: none;
+    margin: 0 10px;
+    animation: bounce 2s ease-in-out infinite;
+    animation-delay: calc(0.5s * var(--i));
+}
+.loadingItem:nth-child(1) {
+    animation-delay: 0
+}
+@keyframes bounce {
+    0% { transform: translateY(0);}
+    15% { transform: translateY(-30px);
+        color: #fff;}
+    30%{ transform: translateY(0);
+        color: lightgrey;}
+    100%{transform: translateY(0)}
+}
