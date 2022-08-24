@@ -12,7 +12,7 @@ function Detail({target}) {
 			<h1>
 				<small className="state">[ {target.processState} ] </small>
 				{target.noticeNo} 
-				</h1>
+			</h1>
 		</div>
 		<div className="detailContent">
 			<img src={target.popfile} alt={target.desertionNo + ' thumbnail'} className='popfile' />

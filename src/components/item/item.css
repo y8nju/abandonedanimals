@@ -11,6 +11,9 @@
     cursor: pointer;
     overflow: hidden;
 }
+.item.selected {
+    border: 2px solid lightpink;
+}
 .item .thumbnail {
     width: 40%;
     height: 100%;
