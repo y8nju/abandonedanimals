@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/abandonedanimals/static/css/main.609dfbd6.css",
+    "main.js": "/abandonedanimals/static/js/main.d57c25c5.js",
+    "index.html": "/abandonedanimals/index.html",
+    "main.609dfbd6.css.map": "/abandonedanimals/static/css/main.609dfbd6.css.map",
+    "main.d57c25c5.js.map": "/abandonedanimals/static/js/main.d57c25c5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.609dfbd6.css",
+    "static/js/main.d57c25c5.js"
+  ]
+}
