@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import './detail.css'
-function Detail({target}) {
+function Detail({target, onClose}) {
     const detail =useRef();
 	
     useEffect(()=> {
@@ -13,6 +13,7 @@ function Detail({target}) {
 				<small className="state">[ {target.processState} ] </small>
 				{target.noticeNo} 
 			</h1>
+			<button className="closeBtn" onClick={onClose}><i class="fas fa-times"></i></button>
 		</div>
 		<div className="detailContent">
 			<img src={target.popfile} alt={target.desertionNo + ' thumbnail'} className='popfile' />

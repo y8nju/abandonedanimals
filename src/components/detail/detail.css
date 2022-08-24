@@ -7,7 +7,20 @@
     border-bottom: 1px solid lightgray;
     margin-bottom: 20px;
     padding-bottom: 10px;
+    position: relative;
 }
 .detail .popfile {
     width:50%;
+}
+.detail .closeBtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 16px;
+    height: 16px;
+    font-size: 10px;
+    border-radius: 4px;
+    background-color: mistyrose;
+    border: 1px solid lightpink;
+    color: lightpink;
 }

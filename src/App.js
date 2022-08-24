@@ -14,6 +14,9 @@ function App() {
 	const handleSelected = (data) => {
 		setSelected(data);
 	}
+	const handleClose = (data) => {
+		setSelected(null);
+	}
 
 	useEffect(() => {
 		setLoading(true);
@@ -60,7 +63,7 @@ function App() {
 			<Search onSearch={handleSearch} uprCd={uprCd}/>
 
 			<section className="container">
-				{selected ? <Detail target={selected}/> : <></> }
+				{selected ? <Detail target={selected} onClose={handleClose}/> : <></> }
 				<List pets={pets} onSelected={handleSelected} selected={selected}/>
 			</section>
 		</div>
