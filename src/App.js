@@ -17,7 +17,7 @@ function App() {
 
 	useEffect(() => {
 		setLoading(true);
-		const key = 'wsakC6opgZrdVp65Cj0cZHspYLlDmhMKX3q%2BjkGlWnJkav4AdCTxJMUZA0RHgM6bRBGELBkhWZarqkqSI10zaQ%3D%3D';
+		const key = process.env.REACT_APP_API_KEY;
 		fetch(`http://apis.data.go.kr/1543061/abandonmentPublicSrvc/abandonmentPublic?serviceKey=${key}&_type=json&numOfRows=30`)
 			.then(response => response.json())
 			.then(json => {
@@ -40,7 +40,7 @@ function App() {
 		}, []);
 	
 	const handleSearch = (bgnde, endde, upr_cd) =>{
-		const key = 'wsakC6opgZrdVp65Cj0cZHspYLlDmhMKX3q%2BjkGlWnJkav4AdCTxJMUZA0RHgM6bRBGELBkhWZarqkqSI10zaQ%3D%3D';
+		const key = process.env.REACT_APP_API_KEY;
 		
 		fetch(`http://apis.data.go.kr/1543061/abandonmentPublicSrvc/abandonmentPublic?serviceKey=${key}&_type=json&numOfRows=30&bgnde=${bgnde}&endde=${endde}&upr_cd=${upr_cd}`)
 			.then(response => response.json())

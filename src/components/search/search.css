@@ -1,9 +1,29 @@
 .serchBar {
     width: 100%;
-    padding: 20px 0 10px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     position: fixed;
     top: 0;
     z-index: 1000;
-    background: #fff;
+    background-color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 1px 0px;
+}
+.serchBar form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.serchBar input, .serchBar select, .serchBar button {
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    height: 32px;
+    padding: 4px;
+}
+.serchBar button {
+    background-color: mistyrose;
+    padding: 4px 8px;
 }

@@ -4,15 +4,13 @@
     font-weight: normal;
     font-style: normal;
 }
-.App {
-}
 .container {
     display: flex;
     justify-content: space-between;
-    padding: 55px 75px 10px;
+    padding: 75px 75px 10px;
 }
 .state {
-    color: tomato
+    color: LightPink
 }
 @media (max-width: 575px) {
     .container {
