@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/abandonedanimals/static/css/main.609dfbd6.css",
-    "main.js": "/abandonedanimals/static/js/main.d57c25c5.js",
+    "main.js": "/abandonedanimals/static/js/main.ee683a2c.js",
     "index.html": "/abandonedanimals/index.html",
     "main.609dfbd6.css.map": "/abandonedanimals/static/css/main.609dfbd6.css.map",
-    "main.d57c25c5.js.map": "/abandonedanimals/static/js/main.d57c25c5.js.map"
+    "main.ee683a2c.js.map": "/abandonedanimals/static/js/main.ee683a2c.js.map"
   },
   "entrypoints": [
     "static/css/main.609dfbd6.css",
-    "static/js/main.d57c25c5.js"
+    "static/js/main.ee683a2c.js"
   ]
 }
